@@ -1,0 +1,32 @@
+Command line argument 
+
+
+    // [0] : File path excel file path 
+	// [1] : Image Folder
+	// [2] : template Path
+	// [3] : Event Name
+	// [4] : Logo Path
+	// [5] : Host
+	// [6] : Duration
+	// [7] : Address
+	// [8] : Allowed Items
+	// [9] : Group
+
+"C:\Users\Nitesh\Documents\Hackethon sample data\hackethon1.xlsx" "C:\Users\Nitesh\Documents\Hackethon sample data\ICA" "C:\Users\Nitesh\Documents\Hackethon sample data\template.html" "Art Exhibition" "C:\Users\Nitesh\Documents\Hackethon sample data\LJICA.png" "Maratha Mitra Manadl" "SAT - SUN 29" "Ahmedabad" "Phones, Wallets" "Admins"
+
+C:\Users\Nitesh\Documents\Hackethon sample data
+
+//parse Excel file and read data from excel
+
+
+generate(Event e, List<Identity> identities, File template, String imageFolder)
+
+
+//in generate function we are passing Event ,identites , passing htmltemplate , imagefolder path 
+
+generate one student html and after append in main html file 
+
+run html file and after that print pdf 
+
+
+
